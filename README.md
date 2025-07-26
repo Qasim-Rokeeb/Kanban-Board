@@ -1,8 +1,49 @@
-# React + Vite
+# 🧩 Day 24 – Dynamic Kanban Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and beautiful Kanban-style task board built with React, Tailwind CSS, Framer Motion, and React Beautiful DnD.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add and remove tasks
+- Drag & drop tasks across columns
+- Beautiful UI with animations
+- Persistent state with localStorage
+- Fully responsive layout
+- Editable task columns
+
+## 🛠️ Tech Stack
+
+- React
+- Tailwind CSS
+- Framer Motion
+- React Beautiful DnD
+- UUID (for unique IDs)
+- LocalStorage
+
+## 📸 Preview
+
+![Preview](https://raw.githubusercontent.com/your-username/kanban-board/main/screenshot.png)
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/your-username/kanban-board
+cd kanban-board
+npm install
+npm start
+```
+
+## 🔮 What's Next
+
+- Drag-and-drop column reordering
+- Multi-user sync with Firebase
+- Theme toggling (dark/light)
+
+## 👨‍💻 About Me
+
+Hi, I'm Qasim Rokeeb – a frontend developer on a 30-day React relearning journey.
+
+- [Twitter](https://twitter.com/qasimrokeeb)
+- [GitHub](https://github.com/Qasim-Rokeeb)
+```
+

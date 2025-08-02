@@ -1,22 +1,27 @@
-import React from 'react';
-import { Draggable } from 'react-beautiful-dnd';
-import { motion } from 'framer-motion';
-import { FiTrash2 } from 'react-icons/fi';
+import React from "react";
+import { Draggable } from "react-beautiful-dnd";
+import { motion } from "framer-motion";
+import { Trash2 } from "lucide-react";
 
 export default function Task({ task, index, onRemove }) {
   return (
     <Draggable draggableId={task.id} index={index}>
-      {(provided) => (
+      {(provided, snapshot) => (
         <motion.div
-          className="bg-slate-100 p-2 my-2 rounded shadow flex justify-between items-center"
           ref={provided.innerRef}
           {...provided.draggableProps}
           {...provided.dragHandleProps}
+          className={`mb-3 p-3 rounded-lg flex items-center justify-between text-sm transition-all
+            ${snapshot.isDragging ? "shadow-2xl scale-105" : "shadow-md"}
+            bg-[var(--bg-card)] backdrop-blur-md border border-[var(--border-card)]`}
           whileHover={{ scale: 1.02 }}
         >
-          <span>{task.content}</span>
-          <button onClick={onRemove} className="text-red-500 hover:text-red-700">
-            <FiTrash2 />
+          <span className="text-[var(--text-primary)]">{task.content}</span>
+          <button
+            onClick={onRemove}
+            className="text-red-400 hover:text-red-300 transition"
+          >
+            <Trash2 size={16} />
           </button>
         </motion.div>
       )}

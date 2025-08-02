@@ -22,12 +22,12 @@ A clean and beautiful Kanban-style task board built with React, Tailwind CSS, Fr
 
 ## 📸 Preview
 
-![Preview](https://raw.githubusercontent.com/your-username/kanban-board/main/screenshot.png)
+![Preview](https://raw.githubusercontent.com/qasim-rokeeb/kanban-board/main/screenshot.png)
 
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/your-username/kanban-board
+git clone https://github.com/qasim-rokeeb/kanban-board
 cd kanban-board
 npm install
 npm start

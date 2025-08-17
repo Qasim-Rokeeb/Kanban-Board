@@ -18,6 +18,7 @@ export default function App() {
         <h1 className="text-4xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
           🧩 Kanban Board
         </h1>
+        <p>Effectivey mange your project, track tasks, manage workflow, and improve efficiency.</p>
 
         <button
           onClick={() => setDark(!dark)}

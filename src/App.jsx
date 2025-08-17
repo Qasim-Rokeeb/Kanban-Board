@@ -17,9 +17,10 @@ export default function App() {
       <header className="flex justify-between items-center mb-6">
         <h1 className="text-4xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
           🧩 Kanban Board
-        </h1>
-        <p>Effectivey mange your project, track tasks, manage workflow, and improve efficiency.</p>
+          <s>Effectivey manage your project, track tasks, manage workflow, and improve efficiency.</s>
 
+        </h1>
+        
         <button
           onClick={() => setDark(!dark)}
           className="p-2 rounded-full bg-[var(--bg-card)] backdrop-blur-md border border-[var(--border-card)]"

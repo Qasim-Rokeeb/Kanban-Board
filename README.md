@@ -24,11 +24,17 @@ A clean and beautiful Kanban-style task board built with React, Tailwind CSS, Fr
 
 ![Preview](https://raw.githubusercontent.com/qasim-rokeeb/kanban-board/main/screenshot.png)
 
+<<<<<<< HEAD
 ## 🌐 Deployment
 
 
 This project is deployed on [Vercel](https://vercel.com/) — [Live Link](https://kanban-board-eight-theta.vercel.app/)
 
+=======
+## 🌐 Live URL
+
+[https://kanban-board-eight-theta.vercel.app/](https://kanban-board-eight-theta.vercel.app/)
+>>>>>>> f7e8cb8c24b21caa720256a01cc1fc7a31f5bebd
 
 ## 🚀 Installation
 

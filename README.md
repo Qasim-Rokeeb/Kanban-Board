@@ -10,6 +10,8 @@ A clean and beautiful Kanban-style task board built with React, Tailwind CSS, Fr
 - Persistent state with localStorage
 - Fully responsive layout
 - Editable task columns
+- Clean and creative desugn gradients
+- Allows different work categories
 
 ## 🛠️ Tech Stack
 
